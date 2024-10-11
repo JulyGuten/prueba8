@@ -1,0 +1,283 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* font-family: "Roboto", sans-serif;*/
+/*font-family: "Rancho", cursive;*/
+/*font-family: "Libre Franklin", sans-serif;*/
+
+
+*{margin:0px;
+padding:0px;
+border:0px;
+}
+
+body{
+    background-color: rgba(102,22,11,1.00);
+}
+
+#contenedor{
+    width: 1200px;/*ANCHO DEL CONTENEDOR*/
+    margin: auto;
+    height: auto;    } /* centra el contenedor*/
+
+#encabezado{
+    height: 460px;/*altura de mi encabeza donde está la foto de telas*/
+    background-repeat: no-repeat;
+   /* background-image: url(img/encabezado%20nuevo.jpg);*/
+	
+}
+#caja6{/*aca esta escrito julyatelie con trasparencia*/
+    background-color: rgba(214,195,181,0.45);
+    width: 200px;/*ANCHO*/
+    color: rgba(103,40,25,1.00);
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-size: 30PX;
+    font-weight: 700;
+    text-align: center;
+
+    margin-left: 200px;
+}
+#botonera{
+    height: 50px;/*ALTURA DE MI BOTONERA*/
+    background-position: bottom;
+	background: linear-gradient(to bottom, rgba(142,21,0,1) 0%,rgba(168,79,50,1) 100%); 
+}
+
+#botonera ul{
+    width: 800px;	
+	margin: auto;
+	/*border:solid 1px blue;*/
+}
+#botonera ul li{
+    width: 150px;/*ESTO ES PARA SABER CUANTO MI LETRA VA OCUPAR DENTRO DE LA BOTONERA*/
+    float: left;
+    /*border: solid 1px yellow;*/
+    line-height: 50px;
+    list-style-type: none;
+    text-align: center;
+}
+#botonera ul li a{
+	font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: rgba(251,251,251,1.00);
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#botonera ul li a:hover{
+    color: rgba(217,181,121,1.00);
+}
+
+#botonera ul li:hover{
+    background-color: rgba(232,202,202,0.52);
+	 text-shadow: -4px 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+#Centro{
+    height: 850px;/*tamaño vertical del centro*/
+    background-color: rgba(253,253,253,1.00);	width: 1200px;	
+}
+
+#pie{
+    width: 1200px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 40px;
+	background: linear-gradient(to bottom, rgba(142,21,0,1) 0%,rgba(168,79,50,1) 100%); 
+	font-family: "Rancho", cursive
+}
+
+#caja1{
+    width: 510px;
+    height: 800px;
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 65px;
+    box-shadow: -13px -5px 13px 0px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to bottom, rgba(242,242,242,0.7) 0%,rgba(196,115,39,0.7) 99%);
+    margin-right: 25px;
+}
+
+#caja1 h1{
+    text-shadow: -4px 4px 10px rgba(0, 0, 0, 0.3);
+    font-family: "Rancho", cursive;
+    color: rgba(106,50,2,1.00);
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    margin-top: 20px;	
+}
+#caja1 h3{
+    text-shadow: -4px 4px 10px rgba(0, 0, 0, 0.3);
+    color: rgba(50,24,2,1.00);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-family: "Libre Franklin", sans-serif;
+    line-height: 22px;
+}
+
+#caja1 p{
+    font-family: "Roboto", sans-serif;
+    color: rgba(0,0,0,1.00);
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#caja1 img{
+	display:block;
+	margin:auto	
+		
+}
+
+
+#caja2{
+    width: 510px;
+    height: 800px;
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 25px;
+    box-shadow: -13px -5px 13px 0px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to bottom, rgba(242,242,242,1) 0%,rgba(196,115,39,1) 99%);
+    margin-right: 65px;
+}
+
+#caja2 h2{
+    text-shadow: -4px 4px 10px rgba(0, 0, 0, 0.3);
+    font-family: "Rancho", cursive;
+    color: rgba(106,50,2,1.00);
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#caja2 img{
+	display:block;
+	margin:auto	
+		
+}
+
+
+#caja2 h4{
+    font-family: "Rancho", cursive;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    margin-top: 20px;
+   
+}
+
+#caja2 p{
+	font-family: "Roboto", sans-serif;
+    color: rgba(0,0,0,1.00);
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	
+}
+
+.creaciones{
+    width: 300px;
+    height: 800px;
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 65px;
+	box-shadow: -13px -5px 13px 0px rgba(0, 0, 0, 0.3);
+	background: linear-gradient(to bottom, rgba(219,177,146,1) 1%,rgba(237,237,237,1) 100%);
+}
+
+.creaciones h1{
+    text-shadow: -4px 4px 10px rgba(0, 0, 0, 0.3);
+    font-family: "Rancho", cursive;
+    color: rgba(106,50,2,1.00);
+    font-size: 32px;
+    font-weight: 600;
+    margin-botton: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+.creaciones img{
+    display: block;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+.alumnas{
+    margin-top: 10px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 400px;
+    float: left;
+	box-shadow: -13px -5px 13px 0px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to bottom, rgba(219,177,146,1) 1%,rgba(237,237,237,1) 100%);	
+}
+
+.alumnas img{
+    display: block;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+	box-shadow: -13px -13px 26px 0px rgba(0, 0, 0, 0.3); /*preguntar a la profe pq el box shadow no funciona aca*/
+	
+}
+
+.textos {
+    width: 550px;
+    float: right;
+   margin-top: 40px;
+/*	border:solid red 1px;*/
+  
+}
+#accordion img{
+    display: block;
+    box-shadow: -13px -13px 26px 0px rgba(0, 0, 0, 0.3);
+    float: left;
+	margin-top:100px;
+}
+
+.textos p{
+    font-family: "Roboto", sans-serif;
+    color: maroon;
+    text-align: justify;
+    line-height: 20px;
+    font-size: 18px;
+    margin-left: 60px;
+	margin-top: 100px;
+}
+
+#contenido{
+	height: 670px;
+}
+
